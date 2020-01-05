@@ -6,7 +6,7 @@
 
 ## Você já ouviu falar sobre observabilidade? ##
 
-A observabilidade tem como base, três elementos que compoe sua estrutura
+A observabilidade tem como base, três elementos que compoe sua estrutura:
 
 - Logs 
 
@@ -29,5 +29,4 @@ O Application Performance Monitoring (APM) tem como principal característica a 
 
 ## O que é o Elastic APM? ##
 
-
-
+Como já foi dito anteriormente, o APM monitora a performance da aplicacāo, incluindo métricas de infraestrutura e serviços. Através dele é possível ver tudo que aconteceu na sua aplicaçāo, de ponta a ponta, isso é muito útil quando se quer entender como os serviços interagem entre si, quantos recursos eles consomem e quais sao os gargalos existentes na aplicacao como um todo.
