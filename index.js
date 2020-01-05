@@ -8,13 +8,20 @@ const init = async () => {
         host: 'localhost'
     });
 
-    server.route({
-        method: 'GET',
-        path: '/',
-        handler: (request, h) => {
-            return 'Hello World!';
+    server.route([
+        {
+            method: 'GET',
+            path: '/hello', handler: (request, h) => {
+                return 'Hello World!';
+            }
+        },
+        {
+            method: 'GET',
+            path: '/byebye', handler: (request, h) => {
+                return 'Bye bye'
+            }
         }
-    });
+    ]);
 
     await server.start();
     console.log('Server running on %s', server.info.uri);
