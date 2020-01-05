@@ -14,7 +14,7 @@ Os logs sāo registros que sua aplicaçāo ou serviços geram, por exemplo, sua 
 
 - Métricas 
 
-As métricas sāo um agrupamento de registros, por exemplo, se apenas 1 usuário recebeu status http 500 em 10 minutos ao tentar fazer uma transaçāo, isso nao me diz muita coisa, mas e se 100 usuários receberam esse status nesse mesmo período, será que isso nāo pode ser um indicador de falha na minha aplicacāo?
+As métricas sāo um agrupamento de registros de log, por exemplo, se apenas 1 usuário recebeu status http 500 em 10 minutos ao tentar fazer uma transaçāo, isso nao me diz muita coisa, mas e se 100 usuários receberam esse status nesse mesmo período, será que isso nāo pode ser um indicador de falha na minha aplicacāo?
 
 SIM, pode!
 
