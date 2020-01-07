@@ -11,6 +11,7 @@
   "author": "Marylly Araújo Silva",
   "license": "MIT",
   "dependencies": {
+    "@elastic/apm-rum": "^4.6.0",
     "@hapi/hapi": "^18.4.0"
   },
   "devDependencies": {
