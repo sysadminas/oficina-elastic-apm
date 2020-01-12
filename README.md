@@ -41,7 +41,7 @@ O seguinte é necessário para completar este laboratório prático
 
 ### Próximos passos ###
 
-1. [Criar sua instancia na Elastic CLoud](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/create-lab.md)
+1. [Criar sua instancia na Elastic CLoud](https://github.com/sysadminas/oficina-elastic-apm/blob/master/lab/elastic-cloud.md)
 
 
 Autoras: [@thebeaoliveira](https://github.com/thebeaoliveira), [@valescaf](https://github.com/valescaf) e [@marylly](https://github.com/marylly)
