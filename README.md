@@ -6,6 +6,8 @@
 
 ## Visão Geral ##
 
+![](/images/observabilidade.PNG)
+
 A observabilidade tem como base, três elementos que compoe sua estrutura:
 
 - Logs 
