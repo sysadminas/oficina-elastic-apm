@@ -42,7 +42,11 @@ Termine o deployment clicando na opção **Create Deployment:**
 
 ![](/images/image-6.png)
 
- Depois de fazer todo o processo de configuração, você receberá as credenciais de acesso ao seu ambiente, guarde elas em um local seguro, pois elas serão necessárias para realizarmos os próximos passos.
+Depois de fazer todo o processo de configuração, você receberá as credenciais de acesso ao seu ambiente, guarde elas em um local seguro, pois elas serão necessárias para realizarmos os próximos passos.
 
 ![](/images/image-7.png)
+
+Depois que o ambiente for criado, você terá acesso a todas as informações referentes a ele, incluindo os endpoints de acesso ao Kibana, Elastic e APM.
+
+![](/images/image-8.png)
 
