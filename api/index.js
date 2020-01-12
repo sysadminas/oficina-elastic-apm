@@ -1,8 +1,9 @@
 'use strict';
 
-const apm = require('./apm-agent')
-
 const Hapi = require('@hapi/hapi');
+
+const apm = require('./apm-agent');
+const logger = require('./logging');
 
 const init = async () => {
   const server = Hapi.server({
@@ -32,12 +33,20 @@ const init = async () => {
   ]);
 
   await server.start();
-  console.log('Server running on %s', server.info.uri);
+  logger.log({
+    level: 'info',
+    message: `Server running on  ${server.info.uri}`,
+    meta: { server: server.info.uri },
+  });
 };
 
 
 process.on('unhandledRejection', (err) => {
-  console.log(err);
+  logger.log({
+    level: 'error',
+    message: err,
+  });
+
   process.exit(1);
 });
 
