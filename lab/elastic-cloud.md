@@ -2,7 +2,7 @@
 
 ## Objetivo ##
 
-O Elastic Cloud é o produto da Elastic que permite aos seus usuários a função de criar e dimensionar ambientes de maneira prática, segura e automatizada em poucos minutos.
+O Elastic Cloud é o produto da Elastic que permite aos seus usuários, criar e dimensionar ambientes de maneira prática, segura e automatizada em poucos minutos.
 
 Nesse laboratório, você aprenderá a provisionar um ambiente com os principais componentes do Elastic Stack diretamente na Elastic Cloud.
 
