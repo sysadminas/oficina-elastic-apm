@@ -1,5 +1,7 @@
 'use strict';
 
+const apm = require('./apm-agent')
+
 const Hapi = require('@hapi/hapi');
 
 const init = async () => {
@@ -12,7 +14,15 @@ const init = async () => {
     {
       method: 'GET',
       path: '/hello',
-      handler: () => 'Hello World!',
+      handler: () => {
+        apm.addLabels({"request-url": "/hello"});
+        apm.setUserContext({
+            id: 12345,
+            username: "test-user",
+            email: "test-user@rapido.bike"
+        })
+        return 'Hello World!'
+      },
     },
     {
       method: 'GET',
