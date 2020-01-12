@@ -4,7 +4,7 @@
 
 <a name="Overview"></a>
 
-## Você já ouviu falar sobre observabilidade? ##
+## Visão Geral ##
 
 A observabilidade tem como base, três elementos que compoe sua estrutura:
 
@@ -26,7 +26,23 @@ O Application Performance Monitoring (APM) tem como principal característica a 
 
 É isso que vamos aprender nesse lab!
 
-
-## O que é o Elastic APM? ##
-
 Como já foi dito anteriormente, o APM monitora a performance da aplicacāo, incluindo métricas de infraestrutura e serviços. Através dele é possível ver tudo que aconteceu na sua aplicaçāo, de ponta a ponta, isso é muito útil quando se quer entender como os serviços interagem entre si, quantos recursos eles consomem e quais sao os gargalos existentes na aplicaçāo como um todo.
+
+### Objetivos ###
+
+Neste laboratório prático, você aprenderá como preparar o seu ambiente de laboratório utilizando a Elastic Cloud com os principais elementos do Elastic Stack (Elasticsearch, Kibana e APM Server) e depois fará a instrumentação do agente de APM para .NodeJs em uma aplicação.
+
+### Pré-requisitos ###
+
+O seguinte é necessário para completar este laboratório prático
+
+- Um computador com acesso a internet
+- Sistema Operacional Windows ou Linux
+
+### Próximos passos ###
+
+1. [Criar sua instancia na Elastic CLoud](https://github.com/sysadminas/elastic-zero-to-hero/blob/master/lab/create-lab.md)
+
+
+Autoras: [@thebeaoliveira](https://github.com/thebeaoliveira), [@valescaf](https://github.com/valescaf) e [@marylly](https://github.com/marylly)
+
