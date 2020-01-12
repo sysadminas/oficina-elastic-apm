@@ -4,7 +4,7 @@
   "description": "Node application with an elastic apm agent package installed.",
   "main": "api/index.js",
   "scripts": {
-    "lint": "eslint **.js",
+    "lint": "eslint api/*.js",
     "start-api": "node api/index.js",
     "start-ui": "react-scripts start",
     "test": "npm test",

@@ -1,9 +1,9 @@
-const apmNode = require('elastic-apm-node').start({
+const apm = require('elastic-apm-node').start({
   serviceName: 'node-app',
   secretToken: '<apm-token>',
   serverUrl: '<apm-server-url>',
-  logLevel: "debug",
-  serviceVersion: "0.1"
-})
+  logLevel: 'debug',
+  serviceVersion: '0.1',
+});
 
-module.exports = apmNode
+module.exports = apm;
