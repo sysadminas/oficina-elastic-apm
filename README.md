@@ -18,7 +18,7 @@ As métricas sāo um agrupamento de registros de log, por exemplo, se apenas 1 u
 
 SIM, pode!
 
-Além disso, outros pontos podem ser usados como métricas como nos últimos 3 minutos o consumo de CPU do meu host foi 30%.
+Além disso, outros pontos podem ser usados como métricas, como nos últimos 3 minutos o consumo de CPU do meu host foi 30%.
 
 - APM 
 
@@ -26,7 +26,7 @@ O Application Performance Monitoring (APM) tem como principal característica a 
 
 É isso que vamos aprender nesse lab!
 
-Como já foi dito anteriormente, o APM monitora a performance da aplicacāo, incluindo métricas de infraestrutura e serviços. Através dele é possível ver tudo que aconteceu na sua aplicaçāo, de ponta a ponta, isso é muito útil quando se quer entender como os serviços interagem entre si, quantos recursos eles consomem e quais sao os gargalos existentes na aplicaçāo como um todo.
+Como já foi dito anteriormente, o APM monitora a performance da aplicacāo, incluindo métricas de infraestrutura e serviços. Através dele é possível ver tudo que aconteceu na sua aplicaçāo, de ponta a ponta, isso é muito útil quando se quer entender como os serviços interagem entre si, quantos recursos eles consomem e quais sāo os gargalos existentes na aplicaçāo como um todo.
 
 ### Objetivos ###
 
@@ -34,7 +34,7 @@ Neste laboratório prático, você aprenderá como preparar o seu ambiente de la
 
 ### Pré-requisitos ###
 
-O seguinte é necessário para completar este laboratório prático
+Requisitos necessários para completar este laboratório prático
 
 - Um computador com acesso a internet
 - Sistema Operacional Windows ou Linux
@@ -42,6 +42,7 @@ O seguinte é necessário para completar este laboratório prático
 ### Próximos passos ###
 
 1. [Criar sua instancia na Elastic Cloud](https://github.com/sysadminas/oficina-elastic-apm/blob/master/lab/elastic-cloud.md)
+2. Instrumentar o APM na aplicaçāo
 
 
 Autoras: [@thebeaoliveira](https://github.com/thebeaoliveira), [@valescaf](https://github.com/valescaf) e [@marylly](https://github.com/marylly)
