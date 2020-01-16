@@ -38,6 +38,9 @@ Requisitos necessários para completar este laboratório prático
 
 - Um computador com acesso a internet
 - Sistema Operacional Windows ou Linux
+- Node: https://nodejs.org/pt-br/download/
+- NPM: https://www.npmjs.com/get-npm
+- Postman: https://www.getpostman.com/downloads/
 
 ### Próximos passos ###
 
