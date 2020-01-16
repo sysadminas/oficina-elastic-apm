@@ -44,7 +44,7 @@ Como opções, temos a AWS, Azure e Google Cloud.
 
 6. Depois de fazer todo o processo de configuração, você receberá as credenciais de acesso ao seu ambiente, guarde elas em um local seguro, pois elas serão necessárias para realizarmos os próximos passos.
 
-![](/images/image-7.png)
+![](/images/image-7.PNG)
 
 7. Depois que o ambiente for criado, você terá acesso a todas as informações referentes a ele, incluindo os endpoints de acesso ao Kibana, Elastic e APM.
 
