@@ -48,5 +48,5 @@ Como opções, temos a AWS, Azure e Google Cloud.
 
 7. Depois que o ambiente for criado, você terá acesso a todas as informações referentes a ele, incluindo os endpoints de acesso ao Kibana, Elastic e APM.
 
-![](/images/image-8.png)
+![](/images/image-8.PNG)
 
