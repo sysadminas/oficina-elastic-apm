@@ -18,29 +18,29 @@ https://ela.st/womakerscode-workshop
 
 1. Clique na opção **Create Deployment**:
 
-![](/images/image-1.png)
+![](/images/image-1.PNG)
 
 2. Insira o nome do seu ambiente: 
 
-![](/images/image-2.png)
+![](/images/image-2.PNG)
 
 3. Escolha o provedor de serviço em nuvem e a região. 
 
 Como opções, temos a AWS, Azure e Google Cloud.
 
-![](/images/image-3.png)
+![](/images/image-3.PNG)
 
 4. Escolha a versão do Elastic Stack que você deseja utilizar, recomendamos utilizar a última versão:
 
-![](/images/image-4.png)
+![](/images/image-4.PNG)
 
 4.1 No setup abaixo, existem alguns modelos de arquiteturas de soluções feitos e recomendados pela a Elastic, geralmente selecionamos o que mais nos atende, porém para começar a estudar, basta selecionar o template **I/O Optimized**, pois ele tem os recursos computacionais que precisamos para executar esse laboratório.
 
-![](/images/image-5.png)
+![](/images/image-5.PNG)
 
 5. Termine o deployment clicando na opção **Create Deployment:**
 
-![](/images/image-6.png)
+![](/images/image-6.PNG)
 
 6. Depois de fazer todo o processo de configuração, você receberá as credenciais de acesso ao seu ambiente, guarde elas em um local seguro, pois elas serão necessárias para realizarmos os próximos passos.
 
