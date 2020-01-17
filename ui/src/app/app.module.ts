@@ -1,29 +1,35 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule, Inject } from '@angular/core';
 import { Routes, Router, RouterModule } from '@angular/router'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ApmErrorHandler, ApmService } from '@elastic/apm-rum-angular';
-import { ErrorHandler } from '@angular/core';
+import { ApmService } from '@elastic/apm-rum-angular';
 import { HelloComponent } from './hello/hello.component';
+import { ByebyeComponent } from './byebye/byebye.component';
+import { ByebyeService } from './byebye/byebye.service';
 
 const routes: Routes = [
-  { path: 'hello', component: HelloComponent }
+  { path: '', redirectTo: 'hello', pathMatch: 'full'},
+  { path: 'hello', component: HelloComponent },
+  { path: 'byebye', component: ByebyeComponent }
 ];
 @NgModule({
   declarations: [
     AppComponent,
-    HelloComponent
+    HelloComponent,
+    ByebyeComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot(routes)
   ],
   providers: [
-    { provide: ApmService, useClass: ApmService, deps: [Router] },
-    { provide: ErrorHandler, useClass: ApmErrorHandler }
+    ByebyeService,
+    { provide: ApmService, useClass: ApmService, deps: [Router] }
   ],
   bootstrap: [AppComponent]
 })
@@ -35,12 +41,7 @@ export class AppModule {
       serverUrl:
       'https://ef5b42bf4d864adb83826a400129eb3d.apm.us-east-1.aws.cloud.es.io:443',
       logLevel: 'trace',
-      serviceVersion: '0.1',
-    });
-
-    apm.setUserContext({
-      username: 'foo',
-      id: 'bar'
+      serviceVersion: '0.1'
     });
   }
 }

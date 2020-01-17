@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HelloService } from './hello.service';
 
 @Component({
   selector: 'app-hello',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HelloComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: HelloService) { }
 
   ngOnInit() {
+    this.service.call().subscribe(response => console.log(response));
   }
 
 }
