@@ -1,6 +1,5 @@
 'use strict';
 
-const apm = require('./apm-agent');
 const logger = require('./logging');
 
 const Hapi = require('@hapi/hapi');
@@ -37,12 +36,6 @@ const init = async () => {
       path: '/hello',
       handler: (request, h) => {
         const correlationId = request.headers['x-correlation-id'] || uuid.v4();
-        apm.addLabels({ 'request-url': '/hello' });
-        apm.setUserContext({
-          id: correlationId,
-          username: 'test-user',
-          email: 'test-user@rapido.bike',
-        });
         logger.log({
           level: 'info',
           message: `Hello said here with context: ${request.uuid}`,
