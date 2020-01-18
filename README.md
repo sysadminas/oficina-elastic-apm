@@ -45,8 +45,7 @@ Requisitos necessários para completar este laboratório prático
 ### Próximos passos ###
 
 1. [Criar sua instancia na Elastic Cloud](https://github.com/sysadminas/oficina-elastic-apm/blob/master/lab/elastic-cloud.md)
-2. Instrumentar o APM na aplicaçāo
+2. [Instrumentação do APM na aplicaçāo](https://github.com/sysadminas/oficina-elastic-apm/blob/master/lab/elastic-apm-agents.md)
 
 
 Autoras: [@thebeaoliveira](https://github.com/thebeaoliveira), [@valescaf](https://github.com/valescaf) e [@marylly](https://github.com/marylly)
-

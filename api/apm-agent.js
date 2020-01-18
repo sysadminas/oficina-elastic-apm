@@ -1,4 +1,3 @@
-const logger = require('./logging');
 const apmNode = require('elastic-apm-node').start({
   serviceName: 'node-app',
   secretToken: '<apm-token>',
