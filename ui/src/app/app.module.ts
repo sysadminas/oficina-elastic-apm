@@ -37,9 +37,8 @@ export class AppModule {
   constructor(@Inject(ApmService) service: ApmService) {
     const apm = service.init({
       serviceName: 'angular-app',
-      secretToken: 'il9Q6dKZLpX0QJ962J',
-      serverUrl:
-      'https://ef5b42bf4d864adb83826a400129eb3d.apm.us-east-1.aws.cloud.es.io:443',
+      secretToken: '<apm-token>',
+      serverUrl: '<apm-server-url>',
       logLevel: 'trace',
       serviceVersion: '0.1'
     });
