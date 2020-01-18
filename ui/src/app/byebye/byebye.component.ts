@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ByebyeService } from './byebye.service'
 
 @Component({
   selector: 'app-byebye',
@@ -8,10 +7,8 @@ import { ByebyeService } from './byebye.service'
 })
 export class ByebyeComponent implements OnInit {
 
-  constructor(private service: ByebyeService) { }
+  constructor() { }
 
-  ngOnInit() {
-    this.service.call().subscribe(response => console.log(response));
-  }
+  ngOnInit() {}
 
 }
